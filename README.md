@@ -1,4 +1,4 @@
-# MySQL Query Hint Extension for RequestTracker
+# RequestTracker Action for Pretix
 
 #### Table of Contents
 
