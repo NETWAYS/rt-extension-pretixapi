@@ -85,7 +85,7 @@ sub has_sub_events {
 
     my $ref = $self->get_event($organizers, $event);
     my $sub_flag = lc($ref->{'has_subevents'} // 'false');
-    return 1 if ($sub_flag eq 'true');
+    return 1 if ($sub_flag =~ m/^1|true$/);
     return 0;
 }
 
